@@ -128,7 +128,7 @@ nav ul li a{
 
 .section-one{
     display: flex;
-    padding: 0 200px;
+    padding: 0 200px 50px;
 }
 .sec-one-title{
     color: #131318;
@@ -151,6 +151,66 @@ nav ul li a{
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
+}
+
+/* main section two */
+
+.section-two{
+    padding: 0 200px;
+}
+.section-two-content{
+    text-align: center;
+}
+.sec-two-con-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sec-two-con-des{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 200px;
+}
+.sec-two-row-one{
+    display: flex;
+}
+.row-one-img{
+    padding-right: 14px;
+    width: 540px;
+    height: 300px;
+    padding-bottom: 13px;
+}
+.sec-two-row-two{
+    display: flex;
+    padding-bottom: 11px;
+}
+.row-two-img-1{
+    width: 350px;
+    height: 286px;
+}
+.row-two-img-2{
+    width: 420px;
+    height: 286px;
+    padding: 0 13px;
+}
+.row-two-img-3{
+    width: 300px;
+    height: 286px;
+}
+.sec-two-row-three{
+    display: flex;
+}
+.row-three-img-1{
+    width: 473px;
+    height: 300px;
+    padding-right: 11px;
+}
+.row-three-img-2{
+    width: 610px;
+    height: 300px;
 }
 /* Responsive section */
 
@@ -243,4 +303,18 @@ nav ul li a{
         height: 342px;
         padding-top: 20px;
     }
+    .section-two{
+        padding: 20px;
+    }
+    .sec-two-con-des{
+        padding: 20px;
+    }
+    .sec-two-con-title{
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    
 }
