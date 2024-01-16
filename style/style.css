@@ -1,0 +1,59 @@
+*{
+    font-family: 'Mulish', sans-serif;
+
+}
+/* header section */
+
+.name{
+   display: flex; 
+}
+.logo{
+    width: 48px;
+    height: 56.008px;
+    position: relative;
+    top: 25px;
+    right: 10px;
+}
+.name-title{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.logo-span{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+}
+.nav-span{
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+#check{
+    display: none;
+}
+#check-btn{
+    position: relative;
+    left: 1000px;
+    display: none;
+}
