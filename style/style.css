@@ -213,6 +213,56 @@ nav ul li a{
     height: 300px;
 }
 
+/* section three container */
+
+.sec-3-con{
+    text-align: center;
+}
+.sec-3-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sec-3-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sec3-container{
+    padding: 0 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-bottom: 50px;
+    
+}
+.sec-3-experiance{
+
+}
+.sec-3-experiance{
+    padding: 20px 30px;
+    border: 1px solid #FF5400 ;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.sec-hotel-img{
+    width: 64px;
+    height: 64px;
+}
+.sec-3-experiance-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.sec-3-description-ex{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 /* footer section  */
 
 .foot-container{
@@ -390,4 +440,11 @@ nav ul li a{
         position: relative;
         padding-left: 50px
     }
-}
+    .sec3-container {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding-bottom: 50px;
+    }
+} 
