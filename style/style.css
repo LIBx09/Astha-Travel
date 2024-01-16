@@ -238,11 +238,14 @@ nav ul li a{
     
 }
 .sec-3-experiance{
-
-}
-.sec-3-experiance{
     padding: 20px 30px;
     border: 1px solid #FF5400 ;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.sec-3-experiance-3{
+    padding: 20px 30px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
@@ -261,6 +264,75 @@ nav ul li a{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+
+/* section five container */
+
+.section-5-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    
+}
+form{
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 8px;
+}
+.sec-5-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.sec-5-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sec-5-input{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+}
+#your-name{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+#email{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.subscribe-btn{
+    width: 399px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.sec-5-background{
+    background-image: url(../Images/save.png);
+    width: 650px;
+    height: 422px;
+    border-radius: 8px;
+    position: relative;
+    left: 20px;
+
+}
+.sec-5-background-con{
+    background-color: #FF5400;
+    width: 250px;
+    height: 100px;
+    transform: rotate(-23.628deg);
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+    top: 220px;
+    left: 320px;
+    
 }
 
 /* footer section  */
@@ -447,4 +519,50 @@ nav ul li a{
         gap: 10px;
         padding-bottom: 50px;
     }
-} 
+    .sec-3-experiance-3{
+        position: relative;
+        right: 400px;
+    }
+    .section-5-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    #your-name {
+        width: 285px;
+        height: 52px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+    }
+    #email{
+        width: 285px;
+        height: 52px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+    }
+    .subscribe-btn {
+        width: 293px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+    }
+    .sec-5-background {
+        background-image: url(../Images/save.png);
+        width: 335px;
+        height: 300px;
+        border-radius: 8px;
+        position: relative;
+        left: 0;
+        top: 20px;
+    }
+    .sec-5-background-con {
+        background-color: #FF5400;
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        text-align: center;
+        position: relative;
+        top: 150px;
+        left: 100px;
+    }
+}
