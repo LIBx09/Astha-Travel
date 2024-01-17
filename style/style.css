@@ -174,44 +174,87 @@ nav ul li a{
     line-height: 26px;
     padding: 0 200px;
 }
-.sec-two-row-one{
+.collage-container{
+    display: grid;
+    gap: 20px;
+}
+
+.row-one{
     display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    text-align: center;
+    align-items: center;
 }
-.row-one-img{
-    padding-right: 14px;
-    width: 540px;
+.box-1{
+    background-image: url(../Images/mal.png);
+    background-repeat: no-repeat;
+    width: 550px;
     height: 300px;
-    padding-bottom: 13px;
+    border-radius: 16px;
 }
-.sec-two-row-two{
+.box-2{
+    background-image: url(../Images/indo.png);
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 300px;
+    border-radius: 16px;
+    
+}
+.row-two{
     display: flex;
-    padding-bottom: 11px;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 70px;
+    border-radius: 16px;
+
+    
 }
-.row-two-img-1{
-    width: 350px;
+.box-3{
+    background-image: url(../Images/sri.png);
+    background-repeat: no-repeat;
+    width: 374px;
     height: 286px;
+    border-radius: 16px;
 }
-.row-two-img-2{
-    width: 420px;
+.box-4{
+    background-image: url(../Images/nor.png);
+    background-repeat: no-repeat;
+    width: 470px;
     height: 286px;
-    padding: 0 13px;
+    border-radius: 16px;
+
 }
-.row-two-img-3{
-    width: 300px;
+.box-5{
+    background-image: url(../Images/kas.png);
+    background-repeat: no-repeat;
+    width: 274px;
     height: 286px;
+    border-radius: 16px;
 }
-.sec-two-row-three{
+.row-three{
     display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    text-align: center;
 }
-.row-three-img-1{
-    width: 473px;
+
+.box-6{
+    background-image: url(../Images/ban.png);
+    background-repeat: no-repeat;
+    width: 470px;
     height: 300px;
-    padding-right: 11px;
+    border-radius: 16px;
+    
 }
-.row-three-img-2{
-    width: 610px;
+.box-7{
+    background-image: url(../Images/man.png);
+    background-repeat: no-repeat;
+    width: 650px;
     height: 300px;
+    border-radius: 16px;
 }
+
 
 /* section three container */
 
@@ -274,7 +317,7 @@ nav ul li a{
     padding: 50px 200px;
     
 }
-form{
+.sec-5-form{
     border: 1px solid;
     padding: 20px;
     border-radius: 8px;
@@ -564,5 +607,98 @@ form{
         position: relative;
         top: 150px;
         left: 100px;
+    }
+    .collage-container{
+        display: block;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 16px;
+    }
+    .row-one {
+        flex-direction: column;
+        padding-right: 70px;
+        text-align: center;
+        align-items: center;
+    }
+    .box-1 {
+        background-image: url(../Images/mal.png);
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 176px;
+        position: relative;
+        left: 35px;
+        bottom: 20px;
+    }
+    .box-2{
+        background-image: url(../Images/indo.png);
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 176px;
+        position: relative;
+        left: 35px;
+        top: 20px;
+        bottom: 20px;
+    }
+    .row-two{
+        flex-direction: column;
+        /* padding-right: 70px; */
+        text-align: center;
+        align-items: center;
+    }
+    .box-3{
+        background-image: url(../Images/sri.png);
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 176px;
+        position: relative;
+        left: 35px;
+        top: 20px;
+        bottom: 20px;
+    }
+    .box-4{
+        background-image: url(../Images/nor.png);
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 176px;
+        position: relative;
+        left: 35px;
+        top: 20px;
+        bottom: 20px;
+    }
+    .box-5{
+        background-image: url(../Images/kas.png);
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 176px;
+        position: relative;
+        left: 35px;
+        top: 20px;
+        bottom: 20px;
+    }
+    .row-three{
+        flex-direction: column;
+        /* padding-right: 70px; */
+        text-align: center;
+        align-items: center;
+    }
+    .box-6{
+        background-image: url(../Images/ban.png);
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 176px;
+        position: relative;
+        left: 35px;
+        top: 20px;
+        bottom: 20px;
+    }
+    .box-7{
+        background-image: url(../Images/man.png);
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 176px;
+        position: relative;
+        left: 35px;
+        top: 20px;
+        bottom: 20px;
     }
 }
